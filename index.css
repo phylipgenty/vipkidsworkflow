@@ -1,0 +1,270 @@
+/* This is the begining of the codes */
+/* All these are navbar codes */
+.logo{
+    width:800px;
+    margin-left:-300px;
+    margin-top:-35px;
+    margin-bottom: -200px;
+    padding-bottom: 5px;
+}
+
+li{
+display: inline;
+padding:15px;
+color: white;
+}
+
+li3{
+  display: inline;
+  padding:15px;
+  color: white;
+  padding-right: 15px;
+  }
+
+li:hover{
+    display: inline;
+    padding:15px;
+    background-color: white;
+    border-radius: 5px;
+    color:blue;
+    }
+
+li1{
+    display: inline;
+    padding:20px;
+    padding-left: 50px;
+    color: white;
+    }
+
+  a{
+      text-decoration: none;
+      color: white;
+    }
+  
+    a:hover{
+      color: blue;
+    }
+
+
+#topnav{
+background-color: blue;
+padding:15px;
+margin-bottom: 10px;
+}
+
+.search{
+    padding:4px;
+    width:300px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+
+/* The drop down menu codes starts here */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff; /* White background */
+  border: 1px solid #00f; /* Blue border */
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #00f; /* Blue text */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* The drop down menu codes end here */
+/* navbar codes ends here */
+
+/* Slide show to the images starts here*/
+.slideshow-container {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+/* Slide show ends here */
+
+/* The write up start's here */
+#text-container {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: blue;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+  white-space: pre-line; /* Allow line breaks in the text */
+}
+/* The write up ends here */
+
+/* The main body start here */
+.mainbody {
+  display: flex; 
+  justify-content: space-around; 
+  width: 100%; 
+}
+
+.box {
+  width: 290px; 
+  height: 400px; 
+  padding: 30px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid blue; 
+  box-sizing: border-box; 
+  margin-bottom: 20px;
+  float: right; /* Initially float divs to the right */
+  opacity: 0; /* Initially hide divs */
+  animation: fadeRight 1s ease forwards; /* Apply fade-in animation */
+}
+
+/* Keyframes for fadeRight animation */
+@keyframes fadeRight {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateX(100%); /* Start position: move from right */
+  }
+  to {
+    opacity: 1; /* End with opacity 1 */
+    transform: translateX(0); /* End position: move to original position */
+  }
+ 
+}
+/* The main body ends here */
+
+/* The newsletter starts here */
+form {
+  max-width: 400px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  padding-left: 8px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* The text "subscribe to our news letter" starts here */
+b1{
+  color: blue;
+}
+/* The text "subscribe to our news letter" ends here */
+
+/* Styles for form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Styles for input fields */
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+/* Styles for the submit button */
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* The newsletter ends here */
+
+/* The button that takes us to the top */
+.butcon{
+  width:30px;
+  height: auto;
+  margin-left: 470px;
+
+}
+/* The button codes ends here to the top */
+
+/* The footer of the code starts here */
+#footer{
+  text-align: center;
+}
+/* The footer ends here */

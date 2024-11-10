@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>www.vipkids.com</title>
+</head>
+<link rel="stylesheet" href="JSS.css"/>
+
+<body>
+    <!-- this is the logo of the page -->
+    <img src="logo.png" alt="vipkids logo" class="logo"/>
+    <!-- logo ends here and nav bar begins here -->
+
+    <!-- This is the top nav section -->
+<div id="topnav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="contactus.html">Contact us</a></li>
+
+        <!-- Drop down menu starts here this is for the admission form-->
+        <div class="dropdown">
+            <button class="dropbtn">Admission form</button>
+            <div class="dropdown-content">
+                <a href="SSS.html">Nursery school form</a>
+                <a href="JSS.html">Primary school form</a>
+            </div>
+        </div>
+        <!-- Drop down ends here -->
+
+        <li><a href="schoolgallery.html">School gallery</a></li>
+        <li1><input type="text" class="search" placeholder="search"> <input type="submit" value="search"></li1>
+    </ul>
+</div>
+
+<!-- This is the body of the page it starts here -->
+<div id="container">
+    <div class="box">
+            <fieldset>
+                    <legend>Primary school form</legend>
+                    Surname:
+                    <br/>
+                    <input type="text" placeholder="Surname" class="surname" required="required">
+                    <span class="error" id="surnameError"></span>
+                    <br/>
+                    Name:
+                    <br/>
+                    <input type="text" placeholder="Name" class="name">
+                    <span class="error" id="nameError"></span>
+                    <br/>
+                    E-mail:
+                    <br/>
+                    <input type="email" placeholder="@gmail.com" class="email">
+                    <span class="error" id="emailError"></span>
+                    <br/>
+                    Phone_No:
+                    <br/>
+                    <input type="text" placeholder="Phone_No" class="number" size="30" maxlength="11">
+                    <span class="error" id="phoneError"></span>
+                    <br/>
+                    Share with us briefly about your previous school:
+                    <br/>
+                    <textarea name="comments" cols="50" rows="6" class="comments" style="border-radius: 5px;">
+                        ...share please!
+                    </textarea>
+                    <br/>
+                    <br/>
+                    <input type="submit" value="Submit" class="submit">
+                </fieldset>
+                
+    </div>
+
+    <div class="box">
+       <img src="pics 1.jpg" class="pic"/>
+    </div>
+</div>
+    
+
+
+
+<!-- The body ends here -->
+
+    <!-- This is the link to the form validation code -->
+    <script src="contact.js"></script>
+    <!-- The link code ends here -->
+
+      <!-- The footer of the page  -->
+      <hr/>
+      <div id="footer">
+      <p>&copy; Copyright 2024 vipkids high school </p>
+    </div>
+
+    </body>
+    </html>

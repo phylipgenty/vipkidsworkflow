@@ -1,0 +1,174 @@
+/* The begining of the codes */
+.logo{
+    width:800px;
+    margin-left:-300px;
+    margin-top:-35px;
+    margin-bottom: -200px;
+    padding-bottom: 5px;
+}
+
+li{
+display: inline;
+padding:15px;
+color: white;
+text-decoration: none;
+}
+
+li3{
+  display: inline;
+  padding:15px;
+  color: white;
+  padding-right: 15px;
+  }
+
+li:hover{
+    display: inline;
+    padding:15px;
+    background-color: white;
+    border-radius: 5px;
+    color:blue;
+    }
+
+li1{
+    display: inline;
+    padding:20px;
+    padding-left: 50px;
+    color: white;
+    }
+
+a{
+    text-decoration: none;
+    color: white;
+    }
+    
+a:hover{
+    color: blue;
+    }
+
+#topnav{
+background-color: blue;
+padding:15px;
+margin-bottom: 10px;
+}
+
+.search{
+    padding:4px;
+    width:300px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+/* The drop down menu codes starts here */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* White background */
+    border: 1px solid #00f; /* Blue border */
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #00f; /* Blue text */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* The drop down menu codes end here */
+
+/* This is where the body starts */
+#container {
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%; 
+}
+.box {
+    flex: 1;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width:460px;
+    height: auto;
+}
+
+fieldset{
+    width: 95%;
+    height: 95%;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.surname{
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.name{
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.email{
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.number{
+    text-align: center;
+    width: 450px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* The color specfying the form validation of the form starts here */
+.error {
+    color: red;
+}
+.valid {
+    color: green;
+}
+
+/* The form validation color ends here */
+
+.pic{
+    width: 100%;
+}
+
+/* The body codes ends here */
+
+/* The footer of the code starts here */
+#footer{
+    text-align: center;
+  }
+/* The footer code ends here   */
+

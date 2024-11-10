@@ -1,0 +1,194 @@
+/* This is the begining of the codes */
+/* All these are navbar codes */
+.logo{
+    width:800px;
+    margin-left:-300px;
+    margin-top:-35px;
+    margin-bottom: -200px;
+    padding-bottom: 5px;
+}
+
+li{
+display: inline;
+padding:15px;
+color: white;
+}
+
+li3{
+  display: inline;
+  padding:15px;
+  color: white;
+  padding-right: 15px;
+  }
+
+li:hover{
+    display: inline;
+    padding:15px;
+    background-color: white;
+    border-radius: 5px;
+    color:blue;
+    }
+
+li1{
+    display: inline;
+    padding:20px;
+    padding-left: 50px;
+    color: white;
+    }
+
+  a{
+      text-decoration: none;
+      color: white;
+    }
+  
+    a:hover{
+      color: blue;
+    }
+
+
+#topnav{
+background-color: blue;
+padding:15px;
+margin-bottom: 10px;
+}
+
+.search{
+    padding:4px;
+    width:300px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+
+}
+
+
+/* The drop down menu codes starts here */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff; /* White background */
+  border: 1px solid #00f; /* Blue border */
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #00f; /* Blue text */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* This is where the div containers are */
+#container {
+    display: flex; 
+    justify-content: space-around; 
+    width: 100%; 
+}
+.box {
+    flex: 1;
+    padding: 20px;
+    margin: 30px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width:460px;
+    height: auto;
+}
+/* The other div section */
+#contain {
+        display: flex; 
+        justify-content: space-around; 
+        width: 100%; 
+    }
+.brox {
+        flex: 1;
+        padding: 20px;
+        margin: 30px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        width:460px;
+        height: auto;
+}
+
+.pic{
+    width: 90%;
+    height: auto;
+}
+
+/* This is where the codes for the images zoom in and out begins */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .box {
+    width: calc(50% - 20px); 
+    height: 200px; 
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .box:hover img {
+    transform: scale(1.1); 
+  }
+  /* The continuation parts */
+  .contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .brox {
+    width: calc(50% - 20px); 
+    height: 200px; 
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .brox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .brox:hover img {
+    transform: scale(1.1); 
+  }
+
+/* The zoom in and out effect codes ends here */
+    
+/* The footer of the code starts here */
+#footer{
+    text-align: center;
+  }
+  /* The footer ends here */
+
+
+  
